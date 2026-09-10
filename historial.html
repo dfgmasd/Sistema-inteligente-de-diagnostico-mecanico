@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historial del Vehículo - J&D Taller</title>
+  <link rel="stylesheet" href="historial.css">
+</head>
+<body>
+
+<div class="container">
+  
+  <div class="header">
+    <h1 class="header-title">Historial del Vehículo</h1>
+    <p class="header-subtitle">Registro completo de reparaciones y diagnósticos</p>
+  </div>
+
+  <!-- Información del vehículo -->
+  <div class="vehicle-card">
+    <div class="vehicle-info">
+      <div class="info-item">
+        <div class="info-label">Placa</div>
+        <div class="info-value">AQ-2024-HX</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Marca / Modelo</div>
+        <div class="info-value">Toyota Corolla</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Año</div>
+        <div class="info-value">2019</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Kilometraje</div>
+        <div class="info-value">87,340 km</div>
+      </div>
+    </div>
+
+    <div class="owner-section">
+      <div class="owner-title">Propietario</div>
+      <div class="owner-name">Juan Carlos Mendoza García</div>
+    </div>
+  </div>
+
+  <!-- Historial de reparaciones -->
+  <div class="repair-history">
+    <h2 class="history-title">Órdenes de Trabajo</h2>
+
+    <!-- Orden 1 - Reciente -->
+    <div class="repair-item">
+      <div class="repair-date">📅 15 de agosto 2026</div>
+      <div class="repair-description">Revisión de frenos y cambio de pastillas</div>
+      
+      <div style="margin: 10px 0;">
+        <span class="repair-label">ESTADO: Completada</span>
+      </div>
+
+      <div class="symptom-tag">
+        <strong>Síntoma:</strong> Ruido al frenar, pedal suave
+      </div>
+
+      <div class="diagnosis-tag">
+        <strong>Diagnóstico:</strong> Pastillas de freno gastadas, tambor ligeramente rayado. Reemplazadas pastillas y ajustado sistema.
+      </div>
+    </div>
+
+    <!-- Orden 2 -->
+    <div class="repair-item">
+      <div class="repair-date">📅 2 de agosto 2026</div>
+      <div class="repair-description">Alineación y balanceo de llantas</div>
+      
+      <div style="margin: 10px 0;">
+        <span class="repair-label">ESTADO: Completada</span>
+      </div>
+
+      <div class="symptom-tag">
+        <strong>Síntoma:</strong> Vehículo se tuerce hacia la derecha, vibración en el volante
+      </div>
+
+      <div class="diagnosis-tag">
+        <strong>Diagnóstico:</strong> Desalineación en el eje frontal. Llantas desgastadas desigualmente. Realizada alineación 4 puntos y balanceo.
+      </div>
+    </div>
+
+    <!-- Orden 3 -->
+    <div class="repair-item">
+      <div class="repair-date">📅 20 de julio 2026</div>
+      <div class="repair-description">Cambio de aceite y filtro</div>
+      
+      <div style="margin: 10px 0;">
+        <span class="repair-label">ESTADO: Completada</span>
+      </div>
+
+      <div class="symptom-tag">
+        <strong>Síntoma:</strong> Mantenimiento preventivo programado
+      </div>
+
+      <div class="diagnosis-tag">
+        <strong>Diagnóstico:</strong> Aceite oscuro, filtro saturado. Cambio de aceite 5W-30 y filtro nuevo. Próximo cambio: 87,340 km.
+      </div>
+    </div>
+
+    <!-- Orden 4 -->
+    <div class="repair-item">
+      <div class="repair-date">📅 10 de junio 2026</div>
+      <div class="repair-description">Reparación de sistema eléctrico</div>
+      
+      <div style="margin: 10px 0;">
+        <span class="repair-label">ESTADO: Completada</span>
+      </div>
+
+      <div class="symptom-tag">
+        <strong>Síntoma:</strong> Luces intermitentes, batería descargando rápido
+      </div>
+
+      <div class="diagnosis-tag">
+        <strong>Diagnóstico:</strong> Batería débil (11.8V). Alternador funcionando correctamente. Batería reemplazada, limpiadas conexiones.
+      </div>
+    </div>
+
+    <!-- Orden 5 - Antigua -->
+    <div class="repair-item">
+      <div class="repair-date">📅 15 de mayo 2026</div>
+      <div class="repair-description">Revisión general anual</div>
+      
+      <div style="margin: 10px 0;">
+        <span class="repair-label">ESTADO: Completada</span>
+      </div>
+
+      <div class="symptom-tag">
+        <strong>Síntoma:</strong> Revisión preventiva anual
+      </div>
+
+      <div class="diagnosis-tag">
+        <strong>Diagnóstico:</strong> Vehículo en buen estado general. Se recomendó cambio de aceite próximo mes. Llantas con 60% de desgaste.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Botones de acción -->
+  <div class="action-buttons">
+<a href="index.html" class="btn">← Volver</a>
+    <button class="btn btn-primary">+ Nueva Orden de Trabajo</button>
+    <button class="btn">Descargar Reporte</button>
+  </div>
+
+</div>
+
+</body>
+</html>
